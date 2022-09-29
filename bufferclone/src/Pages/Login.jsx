@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   Box,
   Center,
@@ -19,8 +20,7 @@ export const Login = () => {
             src="https://i.pcmag.com/imagery/reviews/06hL6EJGwPcfiYd59BH01QQ-7.fit_scale.size_1028x578.v1569472574.jpg"
           ></Image>
         </Center>
-        <Heading>Login</Heading>
-        <Text m={6}> Email Address</Text>
+        <Heading>Login</Heading> <Text m={6}> Email Address</Text>
         <Input placeholder="Basic usage" />
         <Text m={6}>Password</Text>
         <Input placeholder="Basic usage" />
@@ -28,9 +28,13 @@ export const Login = () => {
           Login
         </Button>
         <Flex>
-          <Text fontSize="13px">Create an Account</Text>
+          <Link>
+            <Text fontSize="13px">Create an Account</Text>
+          </Link>
           <Spacer />
-          <Text fontSize="13px">Forgot Your Password</Text>
+          <Link>
+            <Text fontSize="13px">Forgot Your Password</Text>
+          </Link>
         </Flex>
         <Box m={5} marginTop="40px">
           <Text>

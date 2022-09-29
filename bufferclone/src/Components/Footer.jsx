@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Button, Grid, Heading, Text } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <div
@@ -41,40 +42,75 @@ export const Footer = () => {
           <Heading p={1} fontSize="20px">
             Tool
           </Heading>
-          <Text p={1}>Publishing</Text>
-          <Text p={1}>Publishing</Text>
-          <Text p={1}>Engagement</Text>
-          <Text p={1}>Start page</Text>
-          <Text p={1}>Extras</Text>
+          <Link>
+            <Text p={1}>Publishing</Text>
+          </Link>
+          <Link>
+            <Text p={1}>Engagement</Text>
+          </Link>
+          <Link>
+            <Text p={1}>Start page</Text>
+          </Link>
+          <Link>
+            <Text p={1}>Extras</Text>
+          </Link>
         </Box>
         <Box textAlign="left" m={10}>
           <Heading p={1} fontSize="20px">
             Resourses
           </Heading>
-          <Text p={1}>Blog</Text>
-          <Text p={1}>Content Library</Text>
-          <Text p={1}>Browser Extension</Text>
-          <Text p={1}>Free Image editor</Text>
+          <Link>
+            <Text p={1}>Blog</Text>
+          </Link>
+          <Link>
+            <Text p={1}>Content Library</Text>
+          </Link>
+          <Link>
+            <Text p={1}>Browser Extension</Text>
+          </Link>
+          <Link>
+            <Text p={1}>Free Image editor</Text>
+          </Link>
         </Box>
         <Box textAlign="left" m={10}>
           <Heading p={1} fontSize="20px">
-            Support{" "}
+            Support
           </Heading>
-          <Text p={1}>Help Center</Text>
-          <Text p={1}>Status</Text>
-          <Text p={1}>ChangeLog</Text>
-          <Text p={1}>Product Roadmap</Text>
+          <Link>
+            <Text p={1}>Help Center</Text>{" "}
+          </Link>
+          <Link>
+            <Text p={1}>Status</Text>{" "}
+          </Link>
+          <Link>
+            <Text p={1}>ChangeLog</Text>{" "}
+          </Link>
+          <Link>
+            <Text p={1}>Product Roadmap</Text>{" "}
+          </Link>
         </Box>
         <Box textAlign="left" m={10}>
           <Heading p={1} fontSize="20px">
             Company
           </Heading>
-          <Text p={1}>About</Text>
-          <Text p={1}>tranperency</Text>
-          <Text p={1}>Carrier</Text>
-          <Text p={1}>Accessibility</Text>
-          <Text p={1}>Press</Text>
-          <Text p={1}>Sitmap</Text>
+          <Link>
+            <Text p={1}>About</Text>
+          </Link>
+          <Link>
+            <Text p={1}>tranperency</Text>
+          </Link>
+          <Link>
+            <Text p={1}>Carrier</Text>
+          </Link>
+          <Link>
+            <Text p={1}>Accessibility</Text>
+          </Link>
+          <Link>
+            <Text p={1}>Press</Text>
+          </Link>
+          <Link>
+            <Text p={1}>Sitmap</Text>
+          </Link>
         </Box>
       </Box>
     </div>

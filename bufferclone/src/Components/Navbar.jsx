@@ -14,7 +14,7 @@ import {
 export function Navbar() {
   return (
     <div>
-      <Fljex minWidth="max-content" alignItems="center" gap="1">
+      <Flex minWidth="max-content" alignItems="center" gap="1">
         <Box marginLeft="50px" p="2">
           <Link to="/">
             <Image
@@ -107,9 +107,11 @@ export function Navbar() {
                       </Heading>
                       <br />
                       <br />
-                      <Heading fontSize="18px">
-                        <i class="bi bi-instagram"></i> Instagram
-                      </Heading>
+                      <Link to="https://www.instagram.com/">
+                        <Heading fontSize="18px">
+                          <i class="bi bi-instagram"></i> Instagram
+                        </Heading>
+                      </Link>
                       <br />
                       <br />
                       <Heading fontSize="18px">
@@ -142,7 +144,7 @@ export function Navbar() {
                 </Link>
               </Menu>
             </Link>
-            <Link>
+            <Link to="/pricing">
               <Button fontSize="20px" color="black" colorScheme="none">
                 Pricing
               </Button>
