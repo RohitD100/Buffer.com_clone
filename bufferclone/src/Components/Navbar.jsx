@@ -14,7 +14,7 @@ import {
 export function Navbar() {
   return (
     <div>
-      <Flex minWidth="max-content" alignItems="center" gap="1">
+      <Fljex minWidth="max-content" alignItems="center" gap="1">
         <Box marginLeft="50px" p="2">
           <Link to="/">
             <Image
