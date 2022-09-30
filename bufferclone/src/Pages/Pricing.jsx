@@ -13,7 +13,6 @@ export const Pricing = () => {
         plan as <br /> you get started, or trial our full toolkit priced to make
         marketing your business <br /> on social affordable.
       </Text>
-      {/* option */}
       <br />
       <br />
       <Box>
