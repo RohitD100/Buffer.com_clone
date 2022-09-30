@@ -52,7 +52,9 @@ export const Login = () => {
           src="https://login.buffer.com/img/sp-login-image.png"
         />
       </Box>
+      
       <hr />
+
     </div>
   );
 };
