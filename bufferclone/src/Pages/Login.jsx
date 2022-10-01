@@ -51,10 +51,8 @@ export const Login = () => {
           paddingTop="100px"
           src="https://login.buffer.com/img/sp-login-image.png"
         />
-      </Box>
-      
+      </Box>      
       <hr />
-
     </div>
   );
 };
